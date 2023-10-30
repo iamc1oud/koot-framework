@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@koot/application-generic": [
+        "packages/application-generic/src/index.ts"
+      ],
+      "@koot/auth0": ["providers/auth0/src/index.ts"],
+      "@koot/dal": ["libs/dal/src/index.ts"],
+      "@koot/stateless": ["packages/stateless/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
