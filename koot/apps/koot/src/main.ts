@@ -6,6 +6,8 @@ import * as bodyParser from 'body-parser';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+
+  console.log('Loaded env: ', process.env);
   const globalPrefix = 'api';
 
   app.setGlobalPrefix(globalPrefix);
@@ -22,8 +24,6 @@ async function bootstrap() {
 
   app.use(helmet());
   app.enableCors(corsOptionsDelegate);
-
-  
 
   app.useGlobalPipes(new ValidationPipe({
     transform: true,

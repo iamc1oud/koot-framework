@@ -8,8 +8,8 @@ export class DataLayerService {
     async connect(uri: string, config: ConnectOptions = {}) {
         // Default configuration options for the MongoDB connection
         const baseConfig: ConnectOptions = {
-            maxPoolSize: process.env.MONGO_MAX_POOL_SIZE || 500, // Maximum pool size for connections
-            minPoolSize: process.env.MONGO_MIN_POOL_SIZE || 10, // Minimum pool size for connections
+            // maxPoolSize: process.env.MONGO_MAX_POOL_SIZE || 500, // Maximum pool size for connections
+            // minPoolSize: process.env.MONGO_MIN_POOL_SIZE || 10, // Minimum pool size for connections
             autoIndex: process.env.AUTO_CREATE_INDEX === 'true', // Automatically create indexes
             maxIdleTimeMS: 1000 * 60 * 10 // Maximum time a connection can remain idle
         };
