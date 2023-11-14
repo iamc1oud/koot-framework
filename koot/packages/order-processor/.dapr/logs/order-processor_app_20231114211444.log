@@ -1,0 +1,6 @@
+== APP - order-processor == 
+== APP - order-processor == > order-processor@1.0.0 start
+== APP - order-processor == > node index.js
+== APP - order-processor == 
+
+termination signal received: shutting down

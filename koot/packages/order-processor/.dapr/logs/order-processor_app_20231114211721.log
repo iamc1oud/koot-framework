@@ -1,0 +1,26 @@
+== APP - order-processor == 
+== APP - order-processor == > order-processor@1.0.0 start
+== APP - order-processor == > node index.js
+== APP - order-processor == 
+== APP - order-processor == Order received: { orderId: 1 }
+== APP - order-processor == Order received: { orderId: 2 }
+== APP - order-processor == Order received: { orderId: 3 }
+== APP - order-processor == Order received: { orderId: 4 }
+== APP - order-processor == Order received: { orderId: 5 }
+== APP - order-processor == Order received: { orderId: 6 }
+== APP - order-processor == Order received: { orderId: 7 }
+== APP - order-processor == Order received: { orderId: 8 }
+== APP - order-processor == Order received: { orderId: 9 }
+== APP - order-processor == Order received: { orderId: 10 }
+== APP - order-processor == Order received: { orderId: 11 }
+== APP - order-processor == Order received: { orderId: 12 }
+== APP - order-processor == Order received: { orderId: 13 }
+== APP - order-processor == Order received: { orderId: 14 }
+== APP - order-processor == Order received: { orderId: 15 }
+== APP - order-processor == Order received: { orderId: 16 }
+== APP - order-processor == Order received: { orderId: 17 }
+== APP - order-processor == Order received: { orderId: 18 }
+== APP - order-processor == Order received: { orderId: 19 }
+== APP - order-processor == Order received: { orderId: 20 }
+
+termination signal received: shutting down

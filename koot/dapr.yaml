@@ -1,0 +1,9 @@
+version: 1
+apps:
+  - appDirPath: ./packages/koot-auth/
+    appID: koot-auth
+    command: ["npm", "start"]
+  - appDirPath: ./packages/order-processor/
+    appID: order-processor
+    appPort: 5001
+    command: ["npm", "start"]

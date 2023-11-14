@@ -1,0 +1,60 @@
+Starting Dapr with id order-processor. HTTP Port: 57125. gRPC Port: 57126
+Updating metadata for cliPID: 13201
+time="2023-11-14T21:17:21.86538+05:30" level=info msg="Starting Dapr Runtime -- version 1.12.0 -- commit 2149fca96cdf11627c387bda26dcc027d1c47354" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.865419+05:30" level=info msg="Log level set to: info" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.865598+05:30" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.security type=log ver=1.12.0
+time="2023-11-14T21:17:21.867092+05:30" level=info msg="standalone mode configured" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.867157+05:30" level=info msg="app id: order-processor" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.867101+05:30" level=info msg="metrics server started on :57127/" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.867272+05:30" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.867536+05:30" level=info msg="local service entry announced: order-processor -> 192.168.1.18:57128" app_id=order-processor component="mdns (nameResolution/v1)" instance=Ajays-Mac-mini.local scope=dapr.contrib type=log ver=1.12.0
+time="2023-11-14T21:17:21.867551+05:30" level=info msg="Initialized name resolution to mdns" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.867608+05:30" level=info msg="Loading components…" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.871798+05:30" level=info msg="Component loaded: pubsub (pubsub.redis/v1)" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.872381+05:30" level=info msg="Waiting for all outstanding components to be processed…" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877121+05:30" level=info msg="Using 'statestore' as actor state store" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.processor.state type=log ver=1.12.0
+time="2023-11-14T21:17:21.877164+05:30" level=info msg="Component loaded: statestore (state.redis/v1)" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877178+05:30" level=info msg="All outstanding components processed" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877187+05:30" level=info msg="Loading endpoints…" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877365+05:30" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877376+05:30" level=info msg="All outstanding http endpoints processed" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877445+05:30" level=info msg="gRPC server listening on TCP address: :57126" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.api type=log ver=1.12.0
+time="2023-11-14T21:17:21.877456+05:30" level=info msg="Enabled gRPC tracing middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.api type=log ver=1.12.0
+time="2023-11-14T21:17:21.877464+05:30" level=info msg="Enabled gRPC metrics middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.api type=log ver=1.12.0
+time="2023-11-14T21:17:21.877516+05:30" level=info msg="Registering workflow engine for gRPC endpoint: [::]:57126" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.api type=log ver=1.12.0
+time="2023-11-14T21:17:21.877534+05:30" level=info msg="API gRPC server is running on port 57126" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.877569+05:30" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.http type=log ver=1.12.0
+time="2023-11-14T21:17:21.877577+05:30" level=info msg="Enabled tracing HTTP middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.http type=log ver=1.12.0
+time="2023-11-14T21:17:21.877581+05:30" level=info msg="Enabled metrics HTTP middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.http type=log ver=1.12.0
+time="2023-11-14T21:17:21.877997+05:30" level=info msg="HTTP server listening on TCP address: :57125" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.http type=log ver=1.12.0
+time="2023-11-14T21:17:21.878016+05:30" level=info msg="HTTP server is running on port 57125" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.878024+05:30" level=info msg="The request body size parameter is: 4" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.878049+05:30" level=info msg="gRPC server listening on TCP address: :57128" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.internal type=log ver=1.12.0
+time="2023-11-14T21:17:21.878058+05:30" level=info msg="Enabled gRPC tracing middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.internal type=log ver=1.12.0
+time="2023-11-14T21:17:21.878063+05:30" level=info msg="Enabled gRPC metrics middleware" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.grpc.internal type=log ver=1.12.0
+time="2023-11-14T21:17:21.87808+05:30" level=info msg="Internal gRPC server is running on port 57128" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:21.878138+05:30" level=info msg="application protocol: http. waiting on port 5001.  This will block until the app is listening on that port." app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:22.587295+05:30" level=info msg="application discovered on port 5001" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:22.591541+05:30" level=info msg="Application configuration loaded" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:22.591591+05:30" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.actor type=log ver=1.12.0
+time="2023-11-14T21:17:22.591607+05:30" level=info msg="Configuring workflow engine with actors backend" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.wfengine type=log ver=1.12.0
+time="2023-11-14T21:17:22.591615+05:30" level=info msg="Registering component for dapr workflow engine..." app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:22.591629+05:30" level=info msg="Initializing Dapr workflow component" app_id=order-processor component="dapr (workflow.dapr/v1)" instance=Ajays-Mac-mini.local scope=dapr.contrib type=log ver=1.12.0
+time="2023-11-14T21:17:22.592893+05:30" level=info msg="dapr initialized. Status: Running. Init Elapsed 725ms" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:17:22.625003+05:30" level=info msg="Placement tables updated, version: 0" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.actors.placement type=log ver=1.12.0
+Updating metadata for app command: npm start
+Updating metadata for appPID: 13212
+You're up and running! Dapr logs will appear here.
+
+time="2023-11-14T21:18:59.760363+05:30" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.signals type=log ver=1.12.0
+time="2023-11-14T21:18:59.765452+05:30" level=info msg="Dapr is shutting down" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:18:59.765544+05:30" level=info msg="Closing HTTP server [::]:57125…" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime.http type=log ver=1.12.0
+time="2023-11-14T21:18:59.765452+05:30" level=info msg="stopping mDNS server for app id: order-processor" app_id=order-processor component="mdns (nameResolution/v1)" instance=Ajays-Mac-mini.local scope=dapr.contrib type=log ver=1.12.0
+time="2023-11-14T21:18:59.765571+05:30" level=info msg="Shutting down component dapr (workflow.dapr/v1)" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:18:59.765766+05:30" level=info msg="Shutting down component statestore (state.redis/v1)" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+
+termination signal received: shutting down
+time="2023-11-14T21:18:59.765617+05:30" level=info msg="Shutting down workflow engine" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+time="2023-11-14T21:18:59.765626+05:30" level=info msg="Shutting down actor" app_id=order-processor instance=Ajays-Mac-mini.local scope=dapr.runtime type=log ver=1.12.0
+Exited Dapr successfully
+Exited App successfully
