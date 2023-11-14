@@ -1,0 +1,100 @@
+== APP - koot == pnpm nx run koot:serve
+== APP - koot == 
+== APP - koot == > nx run koot:serve:development
+== APP - koot == 
+== APP - koot == chunk (runtime: main) main.js (main) 22.2 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (b70c0149a598575d)
+== APP - koot == Debugger listening on ws://localhost:9229/28c401cd-aafb-4c66-adf0-7edd875c4fef
+== APP - koot == Debugger listening on ws://localhost:9229/28c401cd-aafb-4c66-adf0-7edd875c4fef
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM     LOG [InstanceLoader] AppModule dependencies initialized +1ms
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM     LOG [NestApplication] Nest application successfully started +201ms
+== APP - koot == [Nest] 6637  - 11/14/2023, 8:09:08 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22.2 KiB [entry]
+== APP - koot == webpack compiled successfully (b70c0149a598575d)
+== APP - koot == Debugger listening on ws://localhost:9229/2da9964a-1ea2-4e20-81ea-bedbb31a6fac
+== APP - koot == Debugger listening on ws://localhost:9229/2da9964a-1ea2-4e20-81ea-bedbb31a6fac
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM     LOG [NestApplication] Nest application successfully started +55ms
+== APP - koot == [Nest] 6654  - 11/14/2023, 8:09:12 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22.3 KiB [entry] [rendered]
+== APP - koot == 
+== APP - koot == ERROR in ./apps/koot/src/app/auth/auth.module.ts:6:32
+== APP - koot == TS2306: File '/Volumes/DevZone/Development/koot-framework/koot/apps/koot/src/app/auth/services/github.strategy.ts' is not a module.
+== APP - koot ==     4 | import { JwtModule } from '@nestjs/jwt';
+== APP - koot ==     5 | import { AuthController } from "./auth.controller";
+== APP - koot ==   > 6 | import { GitHubStrategy } from "./services/github.strategy";
+== APP - koot ==       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== APP - koot ==     7 |
+== APP - koot ==     8 | const AUTH_STRATEGIES: Provider[] = [];
+== APP - koot ==     9 |
+== APP - koot == 
+== APP - koot == webpack compiled with 1 error (9b22170b05b599d7)
+== APP - koot == Build failed, waiting for changes to restart...
+== APP - koot == chunk (runtime: main) main.js (main) 22.3 KiB [entry]
+== APP - koot == 
+== APP - koot == ERROR in ./apps/koot/src/app/auth/auth.module.ts:6:32
+== APP - koot == TS2306: File '/Volumes/DevZone/Development/koot-framework/koot/apps/koot/src/app/auth/services/github.strategy.ts' is not a module.
+== APP - koot ==     4 | import { JwtModule } from '@nestjs/jwt';
+== APP - koot ==     5 | import { AuthController } from "./auth.controller";
+== APP - koot ==   > 6 | import { GitHubStrategy } from "./services/github.strategy";
+== APP - koot ==       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== APP - koot ==     7 |
+== APP - koot ==     8 | const AUTH_STRATEGIES: Provider[] = [];
+== APP - koot ==     9 |
+== APP - koot == 
+== APP - koot == webpack compiled with 1 error (9b22170b05b599d7)
+== APP - koot == Build failed, waiting for changes to restart...
+== APP - koot == chunk (runtime: main) main.js (main) 22.3 KiB [entry]
+== APP - koot == 
+== APP - koot == ERROR in ./apps/koot/src/app/auth/auth.module.ts:6:32
+== APP - koot == TS2306: File '/Volumes/DevZone/Development/koot-framework/koot/apps/koot/src/app/auth/services/github.strategy.ts' is not a module.
+== APP - koot ==     4 | import { JwtModule } from '@nestjs/jwt';
+== APP - koot ==     5 | import { AuthController } from "./auth.controller";
+== APP - koot ==   > 6 | import { GitHubStrategy } from "./services/github.strategy";
+== APP - koot ==       |                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== APP - koot ==     7 |
+== APP - koot ==     8 | const AUTH_STRATEGIES: Provider[] = [];
+== APP - koot ==     9 |
+== APP - koot == 
+== APP - koot == webpack compiled with 1 error (9b22170b05b599d7)
+== APP - koot == Build failed, waiting for changes to restart...
+== APP - koot == chunk (runtime: main) main.js (main) 22.6 KiB [entry] [rendered]
+== APP - koot == 
+== APP - koot == ERROR in /Volumes/DevZone/Development/koot-framework/koot/apps/koot/src/app/auth/services/github.strategy.ts
+== APP - koot == ./src/app/auth/services/github.strategy.ts 4:54
+== APP - koot == [tsl] ERROR in /Volumes/DevZone/Development/koot-framework/koot/apps/koot/src/app/auth/services/github.strategy.ts(4,55)
+== APP - koot ==       TS1005: '{' expected.
+== APP - koot == 
+== APP - koot == ERROR in ./apps/koot/src/app/auth/services/github.strategy.ts:2:33
+== APP - koot == TS2307: Cannot find module 'passport-github2' or its corresponding type declarations.
+== APP - koot ==     1 | import { PassportStrategy } from "@nestjs/passport";
+== APP - koot ==   > 2 | import * as githubPassport from 'passport-github2';
+== APP - koot ==       |                                 ^^^^^^^^^^^^^^^^^^
+== APP - koot ==     3 |
+== APP - koot ==     4 | export class GitHubStrategy extends PassportStrategy()
+== APP - koot == 
+== APP - koot == ERROR in ./apps/koot/src/app/auth/services/github.strategy.ts:4:37
+== APP - koot == TS2554: Expected 1-3 arguments, but got 0.
+== APP - koot ==     2 | import * as githubPassport from 'passport-github2';
+== APP - koot ==     3 |
+== APP - koot ==   > 4 | export class GitHubStrategy extends PassportStrategy()
+== APP - koot ==       |                                     ^^^^^^^^^^^^^^^^^^
+== APP - koot == 
+== APP - koot == webpack compiled with 3 errors (b4df3b88485f321c)
+== APP - koot == Build failed, waiting for changes to restart...
+
+termination signal received: shutting down

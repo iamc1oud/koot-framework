@@ -1,0 +1,564 @@
+== APP - koot == pnpm nx run koot:serve
+== APP - koot == 
+== APP - koot == > nx run koot:serve:development
+== APP - koot == 
+== APP - koot == chunk (runtime: main) main.js (main) 59.6 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (e953f4a0742ee22d)
+== APP - koot == Debugger listening on ws://localhost:9229/9d337ecf-857d-447b-b7fa-bb9bfda3d15f
+== APP - koot == Debugger listening on ws://localhost:9229/9d337ecf-857d-447b-b7fa-bb9bfda3d15f
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == Loaded env:  {
+== APP - koot ==   NVM_INC: '/Users/cloud/.nvm/versions/node/v18.14.2/include/node',
+== APP - koot ==   APP_CHANNEL_ADDRESS: '',
+== APP - koot ==   MANPATH: '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man::',
+== APP - koot ==   TERM_PROGRAM: 'vscode',
+== APP - koot ==   NVM_CD_FLAGS: '-q',
+== APP - koot ==   SHELL: '/bin/zsh',
+== APP - koot ==   TERM: 'xterm-256color',
+== APP - koot ==   MAKEFLAGS: '',
+== APP - koot ==   TMPDIR: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/',
+== APP - koot ==   HOMEBREW_REPOSITORY: '/opt/homebrew',
+== APP - koot ==   TERM_PROGRAM_VERSION: '1.84.2',
+== APP - koot ==   DAPR_GRPC_PORT: '50423',
+== APP - koot ==   ZDOTDIR: '/Users/cloud',
+== APP - koot ==   ORIGINAL_XDG_CURRENT_DESKTOP: 'undefined',
+== APP - koot ==   MallocNanoZone: '0',
+== APP - koot ==   DAPR_METRICS_PORT: '50424',
+== APP - koot ==   PNPM_HOME: '/Users/cloud/Library/pnpm',
+== APP - koot ==   ZSH: '/Users/cloud/.oh-my-zsh',
+== APP - koot ==   LC_ALL: 'en_US.UTF-8',
+== APP - koot ==   USER: 'cloud',
+== APP - koot ==   NVM_DIR: '/Users/cloud/.nvm',
+== APP - koot ==   LS_COLORS: 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43',
+== APP - koot ==   COMMAND_MODE: 'unix2003',
+== APP - koot ==   SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.4vVYlfY74P/Listeners',
+== APP - koot ==   __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+== APP - koot ==   APP_PROTOCOL: 'http',
+== APP - koot ==   MAKELEVEL: '1',
+== APP - koot ==   PAGER: 'less',
+== APP - koot ==   MFLAGS: '',
+== APP - koot ==   LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+== APP - koot ==   PATH: './node_modules/.bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/cloud/.cargo/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin:/usr/local/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin',
+== APP - koot ==   __CFBundleIdentifier: 'com.microsoft.VSCode',
+== APP - koot ==   USER_ZDOTDIR: '/Users/cloud',
+== APP - koot ==   npm_command: 'run-script',
+== APP - koot ==   PWD: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   LANG: 'en_US.UTF-8',
+== APP - koot ==   NODE_PATH: '/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/bin/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/bin/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/node_modules',
+== APP - koot ==   XPC_FLAGS: '0x0',
+== APP - koot ==   VSCODE_GIT_ASKPASS_EXTRA_ARGS: '--ms-enable-electron-run-as-node',
+== APP - koot ==   XPC_SERVICE_NAME: '0',
+== APP - koot ==   APP_ID: 'koot',
+== APP - koot ==   VSCODE_INJECTION: '1',
+== APP - koot ==   HOME: '/Users/cloud',
+== APP - koot ==   SHLVL: '1',
+== APP - koot ==   APP_PORT: '5001',
+== APP - koot ==   VSCODE_GIT_ASKPASS_MAIN: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js',
+== APP - koot ==   LANGUAGE: 'en_US.UTF-8',
+== APP - koot ==   HOMEBREW_PREFIX: '/opt/homebrew',
+== APP - koot ==   LOGNAME: 'cloud',
+== APP - koot ==   LESS: '-R',
+== APP - koot ==   PNPM_PACKAGE_NAME: '@koot/source',
+== APP - koot ==   VSCODE_GIT_IPC_HANDLE: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/vscode-git-178a50ff15.sock',
+== APP - koot ==   NVM_BIN: '/Users/cloud/.nvm/versions/node/v18.14.2/bin',
+== APP - koot ==   BUN_INSTALL: '/Users/cloud/.bun',
+== APP - koot ==   npm_config_user_agent: 'pnpm/8.9.0 npm/? node/v18.14.2 darwin arm64',
+== APP - koot ==   INFOPATH: '/opt/homebrew/share/info:/opt/homebrew/share/info:',
+== APP - koot ==   HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+== APP - koot ==   VSCODE_GIT_ASKPASS_NODE: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)',
+== APP - koot ==   GIT_ASKPASS: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh',
+== APP - koot ==   DAPR_HTTP_PORT: '50422',
+== APP - koot ==   COLORTERM: 'truecolor',
+== APP - koot ==   NX_CLI_SET: 'true',
+== APP - koot ==   NX_LOAD_DOT_ENV_FILES: 'true',
+== APP - koot ==   NX_INVOKED_BY_RUNNER: 'true',
+== APP - koot ==   NX_WORKSPACE_ROOT: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   NX_TERMINAL_OUTPUT_PATH: '/Volumes/DevZone/Development/koot-framework/koot/.nx/cache/terminalOutputs/17558699744045911339',
+== APP - koot ==   NX_STREAM_OUTPUT: 'true',
+== APP - koot ==   NX_TASK_TARGET_PROJECT: 'koot',
+== APP - koot ==   NX_TASK_TARGET_TARGET: 'serve',
+== APP - koot ==   NX_TASK_TARGET_CONFIGURATION: 'development',
+== APP - koot ==   NX_TASK_HASH: '17558699744045911339',
+== APP - koot ==   LERNA_PACKAGE_NAME: 'koot',
+== APP - koot ==   NODE_ENV: 'development',
+== APP - koot ==   WEBPACK_SERVE: 'true',
+== APP - koot ==   NX_FILE_TO_RUN: '/Volumes/DevZone/Development/koot-framework/koot/dist/apps/koot/main.js',
+== APP - koot ==   NX_MAPPINGS: '{}',
+== APP - koot ==   PORT: '3000',
+== APP - koot ==   API_ROOT_URL: 'http://localhost:3000',
+== APP - koot ==   FRONT_BASE_URL: 'http://localhost:4200',
+== APP - koot ==   STORE_ENCRYPTION_KEY: '<ENCRYPTION_KEY_MUST_BE_32_LONG>',
+== APP - koot ==   DISABLE_USER_REGISTRATION: 'false',
+== APP - koot ==   MONGO_URL: 'mongodb://localhost:27017/novu-db',
+== APP - koot ==   MONGO_MAX_POOL_SIZE: '500',
+== APP - koot ==   REDIS_PORT: '6379',
+== APP - koot ==   REDIS_PREFIX: '',
+== APP - koot ==   REDIS_HOST: 'localhost',
+== APP - koot ==   REDIS_DB_INDEX: '2',
+== APP - koot ==   REDIS_CACHE_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CACHE_SERVICE_PORT: '6379',
+== APP - koot ==   REDIS_CACHE_DB_INDEX: '',
+== APP - koot ==   REDIS_CACHE_TTL: '',
+== APP - koot ==   REDIS_CACHE_PASSWORD: '',
+== APP - koot ==   REDIS_CACHE_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CACHE_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CACHE_FAMILY: '',
+== APP - koot ==   REDIS_CACHE_KEY_PREFIX: '',
+== APP - koot ==   REDIS_CACHE_ENABLE_AUTOPIPELINING: '',
+== APP - koot ==   IS_REQUEST_RATE_LIMITING_ENABLED: 'false',
+== APP - koot ==   IS_IN_MEMORY_CLUSTER_MODE_ENABLED: 'false',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_PORT: '',
+== APP - koot ==   REDIS_CLUSTER_DB_INDEX: '',
+== APP - koot ==   REDIS_CLUSTER_TTL: '',
+== APP - koot ==   REDIS_CLUSTER_PASSWORD: '',
+== APP - koot ==   REDIS_CLUSTER_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CLUSTER_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CLUSTER_FAMILY: '',
+== APP - koot ==   REDIS_CLUSTER_KEY_PREFIX: '',
+== APP - koot ==   JWT_SECRET: '%LOCAL_TEST&@Ub4&9s',
+== APP - koot ==   S3_LOCAL_STACK: 'http://localhost:4566',
+== APP - koot ==   S3_BUCKET_NAME: 'novu-local',
+== APP - koot ==   S3_REGION: 'us-east-1',
+== APP - koot ==   AWS_ACCESS_KEY_ID: 'test',
+== APP - koot ==   AWS_SECRET_ACCESS_KEY: 'test',
+== APP - koot ==   NEW_RELIC_ENABLED: 'false',
+== APP - koot ==   CDN_URL: '',
+== APP - koot ==   MAIL_SERVER_DOMAIN: '',
+== APP - koot ==   GLOBAL_CONTEXT_PATH: '',
+== APP - koot ==   API_CONTEXT_PATH: '',
+== APP - koot ==   VERCEL_CLIENT_ID: '',
+== APP - koot ==   VERCEL_CLIENT_SECRET: '',
+== APP - koot ==   VERCEL_REDIRECT_URI: 'http://localhost:4200/auth/login',
+== APP - koot ==   VERCEL_BASE_URL: 'https://api.vercel.com',
+== APP - koot ==   FF_IS_TOPIC_NOTIFICATION_ENABLED: 'true',
+== APP - koot ==   STORE_NOTIFICATION_CONTENT: 'true',
+== APP - koot ==   INTERCOM_IDENTITY_VERIFICATION_SECRET_KEY: '',
+== APP - koot ==   LOGGING_LEVEL: 'info',
+== APP - koot ==   LAUNCH_DARKLY_SDK_KEY: ''
+== APP - koot == }
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM     LOG [NestApplication] Nest application successfully started +138ms
+== APP - koot == [Nest] 5724  - 11/14/2023, 7:54:45 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 59.6 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (4475ed1e307e382c)
+== APP - koot == Debugger listening on ws://localhost:9229/fb3b6e61-e40b-4704-9ab5-0f530d1e3367
+== APP - koot == Debugger listening on ws://localhost:9229/fb3b6e61-e40b-4704-9ab5-0f530d1e3367
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM     LOG [InstanceLoader] AppModule dependencies initialized +1ms
+== APP - koot == Loaded env:  {
+== APP - koot ==   NVM_INC: '/Users/cloud/.nvm/versions/node/v18.14.2/include/node',
+== APP - koot ==   APP_CHANNEL_ADDRESS: '',
+== APP - koot ==   MANPATH: '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man::',
+== APP - koot ==   TERM_PROGRAM: 'vscode',
+== APP - koot ==   NVM_CD_FLAGS: '-q',
+== APP - koot ==   SHELL: '/bin/zsh',
+== APP - koot ==   TERM: 'xterm-256color',
+== APP - koot ==   MAKEFLAGS: '',
+== APP - koot ==   TMPDIR: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/',
+== APP - koot ==   HOMEBREW_REPOSITORY: '/opt/homebrew',
+== APP - koot ==   TERM_PROGRAM_VERSION: '1.84.2',
+== APP - koot ==   DAPR_GRPC_PORT: '50423',
+== APP - koot ==   ZDOTDIR: '/Users/cloud',
+== APP - koot ==   ORIGINAL_XDG_CURRENT_DESKTOP: 'undefined',
+== APP - koot ==   MallocNanoZone: '0',
+== APP - koot ==   DAPR_METRICS_PORT: '50424',
+== APP - koot ==   PNPM_HOME: '/Users/cloud/Library/pnpm',
+== APP - koot ==   ZSH: '/Users/cloud/.oh-my-zsh',
+== APP - koot ==   LC_ALL: 'en_US.UTF-8',
+== APP - koot ==   USER: 'cloud',
+== APP - koot ==   NVM_DIR: '/Users/cloud/.nvm',
+== APP - koot ==   LS_COLORS: 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43',
+== APP - koot ==   COMMAND_MODE: 'unix2003',
+== APP - koot ==   SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.4vVYlfY74P/Listeners',
+== APP - koot ==   __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+== APP - koot ==   APP_PROTOCOL: 'http',
+== APP - koot ==   MAKELEVEL: '1',
+== APP - koot ==   PAGER: 'less',
+== APP - koot ==   MFLAGS: '',
+== APP - koot ==   LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+== APP - koot ==   PATH: './node_modules/.bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/cloud/.cargo/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin:/usr/local/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin',
+== APP - koot ==   __CFBundleIdentifier: 'com.microsoft.VSCode',
+== APP - koot ==   USER_ZDOTDIR: '/Users/cloud',
+== APP - koot ==   npm_command: 'run-script',
+== APP - koot ==   PWD: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   LANG: 'en_US.UTF-8',
+== APP - koot ==   NODE_PATH: '/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/bin/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/bin/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/node_modules',
+== APP - koot ==   XPC_FLAGS: '0x0',
+== APP - koot ==   VSCODE_GIT_ASKPASS_EXTRA_ARGS: '--ms-enable-electron-run-as-node',
+== APP - koot ==   XPC_SERVICE_NAME: '0',
+== APP - koot ==   APP_ID: 'koot',
+== APP - koot ==   VSCODE_INJECTION: '1',
+== APP - koot ==   HOME: '/Users/cloud',
+== APP - koot ==   SHLVL: '1',
+== APP - koot ==   APP_PORT: '5001',
+== APP - koot ==   VSCODE_GIT_ASKPASS_MAIN: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js',
+== APP - koot ==   LANGUAGE: 'en_US.UTF-8',
+== APP - koot ==   HOMEBREW_PREFIX: '/opt/homebrew',
+== APP - koot ==   LOGNAME: 'cloud',
+== APP - koot ==   LESS: '-R',
+== APP - koot ==   PNPM_PACKAGE_NAME: '@koot/source',
+== APP - koot ==   VSCODE_GIT_IPC_HANDLE: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/vscode-git-178a50ff15.sock',
+== APP - koot ==   NVM_BIN: '/Users/cloud/.nvm/versions/node/v18.14.2/bin',
+== APP - koot ==   BUN_INSTALL: '/Users/cloud/.bun',
+== APP - koot ==   npm_config_user_agent: 'pnpm/8.9.0 npm/? node/v18.14.2 darwin arm64',
+== APP - koot ==   INFOPATH: '/opt/homebrew/share/info:/opt/homebrew/share/info:',
+== APP - koot ==   HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+== APP - koot ==   VSCODE_GIT_ASKPASS_NODE: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)',
+== APP - koot ==   GIT_ASKPASS: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh',
+== APP - koot ==   DAPR_HTTP_PORT: '50422',
+== APP - koot ==   COLORTERM: 'truecolor',
+== APP - koot ==   NX_CLI_SET: 'true',
+== APP - koot ==   NX_LOAD_DOT_ENV_FILES: 'true',
+== APP - koot ==   NX_INVOKED_BY_RUNNER: 'true',
+== APP - koot ==   NX_WORKSPACE_ROOT: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   NX_TERMINAL_OUTPUT_PATH: '/Volumes/DevZone/Development/koot-framework/koot/.nx/cache/terminalOutputs/17558699744045911339',
+== APP - koot ==   NX_STREAM_OUTPUT: 'true',
+== APP - koot ==   NX_TASK_TARGET_PROJECT: 'koot',
+== APP - koot ==   NX_TASK_TARGET_TARGET: 'serve',
+== APP - koot ==   NX_TASK_TARGET_CONFIGURATION: 'development',
+== APP - koot ==   NX_TASK_HASH: '17558699744045911339',
+== APP - koot ==   LERNA_PACKAGE_NAME: 'koot',
+== APP - koot ==   NODE_ENV: 'development',
+== APP - koot ==   WEBPACK_SERVE: 'true',
+== APP - koot ==   NX_FILE_TO_RUN: '/Volumes/DevZone/Development/koot-framework/koot/dist/apps/koot/main.js',
+== APP - koot ==   NX_MAPPINGS: '{}',
+== APP - koot ==   PORT: '3000',
+== APP - koot ==   API_ROOT_URL: 'http://localhost:3000',
+== APP - koot ==   FRONT_BASE_URL: 'http://localhost:4200',
+== APP - koot ==   STORE_ENCRYPTION_KEY: '<ENCRYPTION_KEY_MUST_BE_32_LONG>',
+== APP - koot ==   DISABLE_USER_REGISTRATION: 'false',
+== APP - koot ==   MONGO_URL: 'mongodb://localhost:27017/novu-db',
+== APP - koot ==   MONGO_MAX_POOL_SIZE: '500',
+== APP - koot ==   REDIS_PORT: '6379',
+== APP - koot ==   REDIS_PREFIX: '',
+== APP - koot ==   REDIS_HOST: 'localhost',
+== APP - koot ==   REDIS_DB_INDEX: '2',
+== APP - koot ==   REDIS_CACHE_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CACHE_SERVICE_PORT: '6379',
+== APP - koot ==   REDIS_CACHE_DB_INDEX: '',
+== APP - koot ==   REDIS_CACHE_TTL: '',
+== APP - koot ==   REDIS_CACHE_PASSWORD: '',
+== APP - koot ==   REDIS_CACHE_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CACHE_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CACHE_FAMILY: '',
+== APP - koot ==   REDIS_CACHE_KEY_PREFIX: '',
+== APP - koot ==   REDIS_CACHE_ENABLE_AUTOPIPELINING: '',
+== APP - koot ==   IS_REQUEST_RATE_LIMITING_ENABLED: 'false',
+== APP - koot ==   IS_IN_MEMORY_CLUSTER_MODE_ENABLED: 'false',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_PORT: '',
+== APP - koot ==   REDIS_CLUSTER_DB_INDEX: '',
+== APP - koot ==   REDIS_CLUSTER_TTL: '',
+== APP - koot ==   REDIS_CLUSTER_PASSWORD: '',
+== APP - koot ==   REDIS_CLUSTER_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CLUSTER_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CLUSTER_FAMILY: '',
+== APP - koot ==   REDIS_CLUSTER_KEY_PREFIX: '',
+== APP - koot ==   JWT_SECRET: '%LOCAL_TEST&@Ub4&9s',
+== APP - koot ==   S3_LOCAL_STACK: 'http://localhost:4566',
+== APP - koot ==   S3_BUCKET_NAME: 'novu-local',
+== APP - koot ==   S3_REGION: 'us-east-1',
+== APP - koot ==   AWS_ACCESS_KEY_ID: 'test',
+== APP - koot ==   AWS_SECRET_ACCESS_KEY: 'test',
+== APP - koot ==   NEW_RELIC_ENABLED: 'false',
+== APP - koot ==   CDN_URL: '',
+== APP - koot ==   MAIL_SERVER_DOMAIN: '',
+== APP - koot ==   GLOBAL_CONTEXT_PATH: '',
+== APP - koot ==   API_CONTEXT_PATH: '',
+== APP - koot ==   VERCEL_CLIENT_ID: '',
+== APP - koot ==   VERCEL_CLIENT_SECRET: '',
+== APP - koot ==   VERCEL_REDIRECT_URI: 'http://localhost:4200/auth/login',
+== APP - koot ==   VERCEL_BASE_URL: 'https://api.vercel.com',
+== APP - koot ==   FF_IS_TOPIC_NOTIFICATION_ENABLED: 'true',
+== APP - koot ==   STORE_NOTIFICATION_CONTENT: 'true',
+== APP - koot ==   INTERCOM_IDENTITY_VERIFICATION_SECRET_KEY: '',
+== APP - koot ==   LOGGING_LEVEL: 'info',
+== APP - koot ==   LAUNCH_DARKLY_SDK_KEY: ''
+== APP - koot == }
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM     LOG [NestApplication] Nest application successfully started +131ms
+== APP - koot == [Nest] 5803  - 11/14/2023, 7:57:19 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 59.6 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (3e940a75aea34e8b)
+== APP - koot == Debugger listening on ws://localhost:9229/0c4b95e8-eaac-4dc4-a2a2-c5c8d5e95470
+== APP - koot == Debugger listening on ws://localhost:9229/0c4b95e8-eaac-4dc4-a2a2-c5c8d5e95470
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == Loaded env:  {
+== APP - koot ==   NVM_INC: '/Users/cloud/.nvm/versions/node/v18.14.2/include/node',
+== APP - koot ==   APP_CHANNEL_ADDRESS: '',
+== APP - koot ==   MANPATH: '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/Users/cloud/.nvm/versions/node/v18.14.2/share/man:/opt/homebrew/share/man::',
+== APP - koot ==   TERM_PROGRAM: 'vscode',
+== APP - koot ==   NVM_CD_FLAGS: '-q',
+== APP - koot ==   SHELL: '/bin/zsh',
+== APP - koot ==   TERM: 'xterm-256color',
+== APP - koot ==   MAKEFLAGS: '',
+== APP - koot ==   TMPDIR: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/',
+== APP - koot ==   HOMEBREW_REPOSITORY: '/opt/homebrew',
+== APP - koot ==   TERM_PROGRAM_VERSION: '1.84.2',
+== APP - koot ==   DAPR_GRPC_PORT: '50423',
+== APP - koot ==   ZDOTDIR: '/Users/cloud',
+== APP - koot ==   ORIGINAL_XDG_CURRENT_DESKTOP: 'undefined',
+== APP - koot ==   MallocNanoZone: '0',
+== APP - koot ==   DAPR_METRICS_PORT: '50424',
+== APP - koot ==   PNPM_HOME: '/Users/cloud/Library/pnpm',
+== APP - koot ==   ZSH: '/Users/cloud/.oh-my-zsh',
+== APP - koot ==   LC_ALL: 'en_US.UTF-8',
+== APP - koot ==   USER: 'cloud',
+== APP - koot ==   NVM_DIR: '/Users/cloud/.nvm',
+== APP - koot ==   LS_COLORS: 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43',
+== APP - koot ==   COMMAND_MODE: 'unix2003',
+== APP - koot ==   SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.4vVYlfY74P/Listeners',
+== APP - koot ==   __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+== APP - koot ==   APP_PROTOCOL: 'http',
+== APP - koot ==   MAKELEVEL: '1',
+== APP - koot ==   PAGER: 'less',
+== APP - koot ==   MFLAGS: '',
+== APP - koot ==   LSCOLORS: 'Gxfxcxdxbxegedabagacad',
+== APP - koot ==   PATH: './node_modules/.bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/cloud/.bun/bin:/Users/cloud/Library/pnpm:/Users/cloud/.console-ninja/.bin:/Users/cloud/.nvm/versions/node/v18.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/cloud/.cargo/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin:/usr/local/bin:/Volumes/DevZone/Applications/flutter/bin:/Users/cloud/go/bin',
+== APP - koot ==   __CFBundleIdentifier: 'com.microsoft.VSCode',
+== APP - koot ==   USER_ZDOTDIR: '/Users/cloud',
+== APP - koot ==   npm_command: 'run-script',
+== APP - koot ==   PWD: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   LANG: 'en_US.UTF-8',
+== APP - koot ==   NODE_PATH: '/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/bin/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules/nx/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/nx@17.0.2_@swc-node+register@1.6.8_@swc+core@1.3.95/node_modules:/Users/cloud/Documents/koot-framework/koot/node_modules/.pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/bin/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules/pnpm/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/pnpm@8.9.0/node_modules:/Users/cloud/Library/pnpm/global/5/.pnpm/node_modules',
+== APP - koot ==   XPC_FLAGS: '0x0',
+== APP - koot ==   VSCODE_GIT_ASKPASS_EXTRA_ARGS: '--ms-enable-electron-run-as-node',
+== APP - koot ==   XPC_SERVICE_NAME: '0',
+== APP - koot ==   APP_ID: 'koot',
+== APP - koot ==   VSCODE_INJECTION: '1',
+== APP - koot ==   HOME: '/Users/cloud',
+== APP - koot ==   SHLVL: '1',
+== APP - koot ==   APP_PORT: '5001',
+== APP - koot ==   VSCODE_GIT_ASKPASS_MAIN: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js',
+== APP - koot ==   LANGUAGE: 'en_US.UTF-8',
+== APP - koot ==   HOMEBREW_PREFIX: '/opt/homebrew',
+== APP - koot ==   LOGNAME: 'cloud',
+== APP - koot ==   LESS: '-R',
+== APP - koot ==   PNPM_PACKAGE_NAME: '@koot/source',
+== APP - koot ==   VSCODE_GIT_IPC_HANDLE: '/var/folders/ry/jfnygkxn7vxdmdy51_zc14yh0000gn/T/vscode-git-178a50ff15.sock',
+== APP - koot ==   NVM_BIN: '/Users/cloud/.nvm/versions/node/v18.14.2/bin',
+== APP - koot ==   BUN_INSTALL: '/Users/cloud/.bun',
+== APP - koot ==   npm_config_user_agent: 'pnpm/8.9.0 npm/? node/v18.14.2 darwin arm64',
+== APP - koot ==   INFOPATH: '/opt/homebrew/share/info:/opt/homebrew/share/info:',
+== APP - koot ==   HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+== APP - koot ==   VSCODE_GIT_ASKPASS_NODE: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)',
+== APP - koot ==   GIT_ASKPASS: '/Volumes/DevZone/Applications/Develop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh',
+== APP - koot ==   DAPR_HTTP_PORT: '50422',
+== APP - koot ==   COLORTERM: 'truecolor',
+== APP - koot ==   NX_CLI_SET: 'true',
+== APP - koot ==   NX_LOAD_DOT_ENV_FILES: 'true',
+== APP - koot ==   NX_INVOKED_BY_RUNNER: 'true',
+== APP - koot ==   NX_WORKSPACE_ROOT: '/Volumes/DevZone/Development/koot-framework/koot',
+== APP - koot ==   NX_TERMINAL_OUTPUT_PATH: '/Volumes/DevZone/Development/koot-framework/koot/.nx/cache/terminalOutputs/17558699744045911339',
+== APP - koot ==   NX_STREAM_OUTPUT: 'true',
+== APP - koot ==   NX_TASK_TARGET_PROJECT: 'koot',
+== APP - koot ==   NX_TASK_TARGET_TARGET: 'serve',
+== APP - koot ==   NX_TASK_TARGET_CONFIGURATION: 'development',
+== APP - koot ==   NX_TASK_HASH: '17558699744045911339',
+== APP - koot ==   LERNA_PACKAGE_NAME: 'koot',
+== APP - koot ==   NODE_ENV: 'development',
+== APP - koot ==   WEBPACK_SERVE: 'true',
+== APP - koot ==   NX_FILE_TO_RUN: '/Volumes/DevZone/Development/koot-framework/koot/dist/apps/koot/main.js',
+== APP - koot ==   NX_MAPPINGS: '{}',
+== APP - koot ==   PORT: '3000',
+== APP - koot ==   API_ROOT_URL: 'http://localhost:3000',
+== APP - koot ==   FRONT_BASE_URL: 'http://localhost:4200',
+== APP - koot ==   STORE_ENCRYPTION_KEY: '<ENCRYPTION_KEY_MUST_BE_32_LONG>',
+== APP - koot ==   DISABLE_USER_REGISTRATION: 'false',
+== APP - koot ==   MONGO_URL: 'mongodb://localhost:27017/novu-db',
+== APP - koot ==   MONGO_MAX_POOL_SIZE: '500',
+== APP - koot ==   REDIS_PORT: '6379',
+== APP - koot ==   REDIS_PREFIX: '',
+== APP - koot ==   REDIS_HOST: 'localhost',
+== APP - koot ==   REDIS_DB_INDEX: '2',
+== APP - koot ==   REDIS_CACHE_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CACHE_SERVICE_PORT: '6379',
+== APP - koot ==   REDIS_CACHE_DB_INDEX: '',
+== APP - koot ==   REDIS_CACHE_TTL: '',
+== APP - koot ==   REDIS_CACHE_PASSWORD: '',
+== APP - koot ==   REDIS_CACHE_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CACHE_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CACHE_FAMILY: '',
+== APP - koot ==   REDIS_CACHE_KEY_PREFIX: '',
+== APP - koot ==   REDIS_CACHE_ENABLE_AUTOPIPELINING: '',
+== APP - koot ==   IS_REQUEST_RATE_LIMITING_ENABLED: 'false',
+== APP - koot ==   IS_IN_MEMORY_CLUSTER_MODE_ENABLED: 'false',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_HOST: '',
+== APP - koot ==   REDIS_CLUSTER_SERVICE_PORT: '',
+== APP - koot ==   REDIS_CLUSTER_DB_INDEX: '',
+== APP - koot ==   REDIS_CLUSTER_TTL: '',
+== APP - koot ==   REDIS_CLUSTER_PASSWORD: '',
+== APP - koot ==   REDIS_CLUSTER_CONNECTION_TIMEOUT: '',
+== APP - koot ==   REDIS_CLUSTER_KEEP_ALIVE: '',
+== APP - koot ==   REDIS_CLUSTER_FAMILY: '',
+== APP - koot ==   REDIS_CLUSTER_KEY_PREFIX: '',
+== APP - koot ==   JWT_SECRET: '%LOCAL_TEST&@Ub4&9s',
+== APP - koot ==   S3_LOCAL_STACK: 'http://localhost:4566',
+== APP - koot ==   S3_BUCKET_NAME: 'novu-local',
+== APP - koot ==   S3_REGION: 'us-east-1',
+== APP - koot ==   AWS_ACCESS_KEY_ID: 'test',
+== APP - koot ==   AWS_SECRET_ACCESS_KEY: 'test',
+== APP - koot ==   NEW_RELIC_ENABLED: 'false',
+== APP - koot ==   CDN_URL: '',
+== APP - koot ==   MAIL_SERVER_DOMAIN: '',
+== APP - koot ==   GLOBAL_CONTEXT_PATH: '',
+== APP - koot ==   API_CONTEXT_PATH: '',
+== APP - koot ==   VERCEL_CLIENT_ID: '',
+== APP - koot ==   VERCEL_CLIENT_SECRET: '',
+== APP - koot ==   VERCEL_REDIRECT_URI: 'http://localhost:4200/auth/login',
+== APP - koot ==   VERCEL_BASE_URL: 'https://api.vercel.com',
+== APP - koot ==   FF_IS_TOPIC_NOTIFICATION_ENABLED: 'true',
+== APP - koot ==   STORE_NOTIFICATION_CONTENT: 'true',
+== APP - koot ==   INTERCOM_IDENTITY_VERIFICATION_SECRET_KEY: '',
+== APP - koot ==   LOGGING_LEVEL: 'info',
+== APP - koot ==   LAUNCH_DARKLY_SDK_KEY: ''
+== APP - koot == }
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM     LOG [NestApplication] Nest application successfully started +54ms
+== APP - koot == [Nest] 5821  - 11/14/2023, 7:57:21 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (01e8327abe0dd6ad)
+== APP - koot == Debugger listening on ws://localhost:9229/4215d0d2-3465-47bb-ab8a-c63c2d329b64
+== APP - koot == Debugger listening on ws://localhost:9229/4215d0d2-3465-47bb-ab8a-c63c2d329b64
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM     LOG [NestApplication] Nest application successfully started +117ms
+== APP - koot == [Nest] 5862  - 11/14/2023, 7:57:37 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (915c0740b7b7f454)
+== APP - koot == Debugger listening on ws://localhost:9229/8f4efcb5-3bf2-4d5c-85af-afde4c009ecb
+== APP - koot == Debugger listening on ws://localhost:9229/8f4efcb5-3bf2-4d5c-85af-afde4c009ecb
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM     LOG [NestApplication] Nest application successfully started +53ms
+== APP - koot == [Nest] 5878  - 11/14/2023, 7:57:39 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry]
+== APP - koot == webpack compiled successfully (915c0740b7b7f454)
+== APP - koot == Debugger listening on ws://localhost:9229/370cef1c-6686-4013-be79-78f0e1ca41eb
+== APP - koot == Debugger listening on ws://localhost:9229/370cef1c-6686-4013-be79-78f0e1ca41eb
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM     LOG [NestApplication] Nest application successfully started +129ms
+== APP - koot == [Nest] 5920  - 11/14/2023, 7:58:34 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry]
+== APP - koot == webpack compiled successfully (915c0740b7b7f454)
+== APP - koot == Debugger listening on ws://localhost:9229/8f4522df-4b09-48fc-8f90-05b209673e86
+== APP - koot == Debugger listening on ws://localhost:9229/8f4522df-4b09-48fc-8f90-05b209673e86
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM     LOG [NestApplication] Nest application successfully started +114ms
+== APP - koot == [Nest] 5964  - 11/14/2023, 7:58:55 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (c1316f04ea6c93e1)
+== APP - koot == Debugger listening on ws://localhost:9229/40cb337e-7fab-4c0e-8e40-46382ac41cc0
+== APP - koot == Debugger listening on ws://localhost:9229/40cb337e-7fab-4c0e-8e40-46382ac41cc0
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM     LOG [NestApplication] Nest application successfully started +55ms
+== APP - koot == [Nest] 5989  - 11/14/2023, 7:59:04 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (24f12904c7f6a03f)
+== APP - koot == Debugger listening on ws://localhost:9229/49e7b8b2-f8e3-4015-8242-ae4a4c71afb4
+== APP - koot == Debugger listening on ws://localhost:9229/49e7b8b2-f8e3-4015-8242-ae4a4c71afb4
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM     LOG [NestApplication] Nest application successfully started +55ms
+== APP - koot == [Nest] 6019  - 11/14/2023, 7:59:31 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22.1 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (4f83ba8691996ecf)
+== APP - koot == Debugger listening on ws://localhost:9229/b52bc9a3-fc9a-4f11-ba8d-80949e844cdf
+== APP - koot == Debugger listening on ws://localhost:9229/b52bc9a3-fc9a-4f11-ba8d-80949e844cdf
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM     LOG [NestApplication] Nest application successfully started +55ms
+== APP - koot == [Nest] 6046  - 11/14/2023, 7:59:59 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22.2 KiB [entry] [rendered]
+== APP - koot == webpack compiled successfully (ed3328ad5270b295)
+== APP - koot == Debugger listening on ws://localhost:9229/2b47641f-4310-48fc-8f3f-167ee2931445
+== APP - koot == Debugger listening on ws://localhost:9229/2b47641f-4310-48fc-8f3f-167ee2931445
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM     LOG [NestApplication] Nest application successfully started +131ms
+== APP - koot == [Nest] 6080  - 11/14/2023, 8:00:17 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+== APP - koot == chunk (runtime: main) main.js (main) 22.2 KiB [entry]
+== APP - koot == webpack compiled successfully (ed3328ad5270b295)
+== APP - koot == Debugger listening on ws://localhost:9229/f8efea2e-c7fb-48d5-a396-9fb49c9b7cfa
+== APP - koot == Debugger listening on ws://localhost:9229/f8efea2e-c7fb-48d5-a396-9fb49c9b7cfa
+== APP - koot == For help, see: https://nodejs.org/en/docs/inspector
+== APP - koot == 
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM     LOG [NestFactory] Starting Nest application...
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM     LOG 🚀 BOOTSTRAPPED NEST APPLICATION 🚀
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM VERBOSE Server timeout: 0
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM VERBOSE Server keepAliveTimeout: 61s 
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM VERBOSE Server headersTimeout: 65s 
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM     LOG [NestApplication] Nest application successfully started +114ms
+== APP - koot == [Nest] 6112  - 11/14/2023, 8:00:35 PM     LOG 🚀 Application is running on: http://localhost:3000/api
+
+termination signal received: shutting down
