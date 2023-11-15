@@ -23,6 +23,12 @@
       ],
       "@koot/shared/*": [
         "libs/shared/src/*"
+      ],
+      "@koot/dal": [
+        "libs/dal/src"
+      ],
+      "@koot/dal/*": [
+        "libs/dal/src/*"
       ]
     }
   }

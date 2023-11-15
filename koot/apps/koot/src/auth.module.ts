@@ -4,6 +4,9 @@ import { AuthController } from './auth.controller';
 import { GITHUB_OAUTH_CLIENT_ID, GITHUB_OAUTH_SECRET_ID } from './constants';
 import { GithubStrategy } from './services/passport/github.strategy';
 import { PassportModule } from '@nestjs/passport';
+import { DalModule, UserEntity } from '@koot/dal';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { DataSource } from 'typeorm';
 
 const AUTH_PROVIDER: Provider[] = [];
 
@@ -12,6 +15,8 @@ const AUTH_PROVIDER: Provider[] = [];
     PassportModule.register({
       defaultStrategy: 'github',
     }),
+    DalModule,
+    TypeOrmModule.forFeature([UserEntity]),
   ],
   controllers: [AuthController],
   providers: [
@@ -41,4 +46,6 @@ const AUTH_PROVIDER: Provider[] = [];
     ...AUTH_PROVIDER,
   ],
 })
-export class AuthModule {}
+export class AuthModule {
+  constructor(private dataSource: DataSource) {}
+}
