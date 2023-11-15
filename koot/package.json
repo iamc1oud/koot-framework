@@ -4,7 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@dapr/dapr": "^3.2.0"
+  },
   "devDependencies": {
     "lerna": "^7.4.1"
   }

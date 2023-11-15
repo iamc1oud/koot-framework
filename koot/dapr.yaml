@@ -1,9 +1,13 @@
 version: 1
+common:
+  configFilePath: ./resources/config.yaml
+  env:
+    TEST_KEY: value
 apps:
   - appDirPath: ./packages/koot-auth/
     appID: koot-auth
-    command: ["npm", "start"]
-  - appDirPath: ./packages/order-processor/
-    appID: order-processor
-    appPort: 5001
-    command: ["npm", "start"]
+    appPort: 3000
+    daprHTTPPort: 3501
+    daprGRPCPort: 3601
+    appProtocol: http
+    command: ["npm", "run", "start"]
