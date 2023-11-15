@@ -1,6 +1,7 @@
 version: 1  
 apps:
-  - appDirPath: ./packages/koot-auth/
+  # Authentication Service
+  - appDirPath: ./apps/koot/
     appID: koot-auth
     appPort: 3000
     daprHost: localhost
@@ -8,4 +9,15 @@ apps:
     daprGRPCPort: 3601
     appProtocol: http
     resourcesPath: ../../resources/components/
-    command: ["npm", "run", "start"]
+    command: ["npm", "run", "start:dev"]
+
+  # Notification Service
+  - appDirPath: ./apps/notification/
+    appID: koot-notification
+    appPort: 3001
+    daprHost: localhost
+    daprHTTPPort: 3502
+    daprGRPCPort: 3602
+    appProtocol: http
+    resourcesPath: ../../resources/components/
+    command: ["npm", "run", "start:dev"]
