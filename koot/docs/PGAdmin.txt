@@ -1,0 +1,24 @@
+1. Postgres with Docker
+docker run \
+  -p 5432:5432 \
+  --name container-postgresdb \
+  -e POSTGRES_PASSWORD=admin \
+  -d postgres
+2. PgAdmin with Docker
+docker run \
+  -p 5050:80 \
+  -e "PGADMIN_DEFAULT_EMAIL=name@example.com" \
+  -e "PGADMIN_DEFAULT_PASSWORD=admin" \
+  -d dpage/pgadmin4
+3. Connection string for PgAdmin
+Enter PgAdmin on localhost:80. Then add a server with:
+
+name: container-postgresdb
+host: host.docker.internal
+database: postgres
+user: postgres
+password: admin
+You can also use this to find out the host address (it will be listed as IPAddress in the output):
+
+docker inspect container-postgresdb \
+  -f "{{json .NetworkSettings.Networks }}"
