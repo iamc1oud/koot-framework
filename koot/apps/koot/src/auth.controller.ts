@@ -13,29 +13,21 @@ import { GITHUB_OAUTH_CLIENT_ID, GITHUB_OAUTH_SECRET_ID } from './constants';
 import { AuthGuard } from '@nestjs/passport';
 import * as passport from 'passport';
 import { DataSource, EntityManager, Repository } from 'typeorm';
-import {
-  InjectDataSource,
-  InjectEntityManager,
-  InjectRepository,
-} from '@nestjs/typeorm';
-import { UserEntity } from '@koot/dal';
+import { InjectRepository } from '@nestjs/typeorm';
+import { UserEntity, UserRepository } from '@koot/dal';
 
 @Controller('/auth')
 export class AuthController {
   constructor(
     private readonly daprClient: DaprClientService,
-    @InjectRepository(UserEntity)
-    private userRepository: Repository<UserEntity>,
+    private userRepository: UserRepository,
   ) {}
 
   @Get()
   async findAll() {
-    let newUser = this.userRepository.create();
-    newUser.email = 'ajay@kumar.in';
-    newUser.password = 'sometihhg';
-
-    await this.userRepository.save(newUser);
-    return await this.userRepository.find();
+    return {
+      data: await this.userRepository.getAll()
+    };
   }
 
   @Get('/github')

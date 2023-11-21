@@ -1,7 +1,11 @@
 import { Module } from '@nestjs/common';
 import { DalService } from './dal.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { UserEntity } from './repositories';
+import { UserEntity, UserRepository } from './repositories';
+
+const REPOSITORIES = [
+  UserRepository,
+];
 
 @Module({
   imports: [
@@ -18,8 +22,11 @@ import { UserEntity } from './repositories';
       // NOTE: DO NOT IN PRODUCTION
       synchronize: true,
     }),
+    TypeOrmModule.forFeature([
+      UserEntity,
+    ])
   ],
-  providers: [DalService],
-  exports: [DalService],
+  providers: [DalService, ...REPOSITORIES],
+  exports: [DalService, ...REPOSITORIES],
 })
 export class DalModule {}

@@ -7,16 +7,17 @@ import { PassportModule } from '@nestjs/passport';
 import { DalModule, UserEntity } from '@koot/dal';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
+import { SharedModule } from '@koot/shared';
 
 const AUTH_PROVIDER: Provider[] = [];
 
 @Module({
   imports: [
+    DalModule,
+    SharedModule,
     PassportModule.register({
       defaultStrategy: 'github',
     }),
-    DalModule,
-    TypeOrmModule.forFeature([UserEntity]),
   ],
   controllers: [AuthController],
   providers: [
@@ -24,6 +25,7 @@ const AUTH_PROVIDER: Provider[] = [];
     {
       provide: DaprClientService,
       useFactory: async () => {
+        console.log("Dapr client serrvice");
         const client = new DaprClientService(
           process.env.DAPR_HOST,
           process.env.DAPR_GRPC_PORT,

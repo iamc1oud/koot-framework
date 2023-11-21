@@ -2,9 +2,14 @@ import { Module } from '@nestjs/common';
 import { NotificationController } from './notification.controller';
 import { NotificationService } from './notification.service';
 import { DaprClientService } from '@koot/shared/dapr-client/dapr-client.service';
+import { SharedModule } from '@koot/shared';
+import { DalModule } from '@koot/dal';
 
 @Module({
-  imports: [],
+  imports: [
+    SharedModule,
+    DalModule
+  ],
   controllers: [NotificationController],
   providers: [
     NotificationService,
