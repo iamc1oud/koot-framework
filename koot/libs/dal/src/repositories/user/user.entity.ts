@@ -55,7 +55,7 @@ export class UserEntity {
   @Column({ nullable: true })
   profilePicture?: string;
 
-  @Column('simple-array', { nullable: true })
+  @Column('jsonb', { nullable: true })
   @Exclude({ toPlainOnly: true })
   tokens: IUserToken[];
 
