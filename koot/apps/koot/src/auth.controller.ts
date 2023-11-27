@@ -55,7 +55,6 @@ export class AuthController {
   @Get('/github/callback')
   @UseGuards(AuthGuard('github'))
   async githubCallback(@Req() request) {
-    console.log(request.user);
     return {
       user: request.user,
     };

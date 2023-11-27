@@ -6,9 +6,10 @@ export interface IUserResetTokenCount {
   reqInDay: number;
 }
 
-export interface AuthProviderEnum {
-  GITHUB: 'github';
-  FACEBOOK: 'facebook';
+export enum AuthProviderEnum {
+  GITHUB = 'github',
+  FACEBOOK = 'facebook',
+  GOOGLE = 'google',
 }
 
 export interface IUserToken {
@@ -36,7 +37,10 @@ export class UserEntity {
   @Column({ nullable: true })
   resetTokenDate?: string;
 
-  @Column('simple-json', { default: { reqInMinute: 0, reqInDay: 0}, nullable: true })
+  @Column('simple-json', {
+    default: { reqInMinute: 0, reqInDay: 0 },
+    nullable: true,
+  })
   resetTokenCount: IUserResetTokenCount;
 
   @Column({ nullable: true })
@@ -56,7 +60,7 @@ export class UserEntity {
   tokens: IUserToken[];
 
   @Exclude({ toPlainOnly: true })
-  @Column()
+  @Column({ nullable: true })
   password?: string;
 
   @Column({ default: false })

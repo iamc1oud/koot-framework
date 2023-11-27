@@ -1,13 +1,15 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import * as githubPassport from 'passport-github2';
+import { AuthService } from '../auth.service';
+import { AuthProviderEnum } from '@koot/dal';
 
 @Injectable()
 export class GithubStrategy extends PassportStrategy(
   githubPassport.Strategy,
   'github',
 ) {
-  constructor() {
+  constructor(private readonly authService: AuthService) {
     super({
       clientID: '6f2c4bd75e3b706aed76',
       clientSecret: '4235cdb1908e8ff9c709b29691f99698c5276466',
@@ -33,13 +35,20 @@ export class GithubStrategy extends PassportStrategy(
     profile: githubPassport.Profile,
     done: (err, data) => void,
   ): Promise<any> {
-    console.log('validate');
+    const githubProfile = { ...profile._json, email: profile.emails[0].value };
+
+    const response = await this.authService.authenticate(
+      AuthProviderEnum.GITHUB,
+      accessToken,
+      refreshToken,
+      githubProfile,
+      null,
+    );
 
     // TODO: Handle authentication.
     done(null, {
-      accessToken,
-      refreshToken,
-      profile,
+      token: response.token,
+      newUser: response.newUser,
     });
   }
 }

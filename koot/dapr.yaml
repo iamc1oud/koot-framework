@@ -8,6 +8,7 @@ apps:
     daprHTTPPort: 3501
     daprGRPCPort: 3601
     appProtocol: http
+    
     resourcesPath: ../../resources/components/
     command: ["npm", "run", "start:dev"]
 

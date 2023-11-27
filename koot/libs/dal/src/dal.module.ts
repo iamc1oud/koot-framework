@@ -19,6 +19,7 @@ const REPOSITORIES = [
       entities: [
         UserEntity
       ],
+      autoLoadEntities: true,
       // NOTE: DO NOT IN PRODUCTION
       synchronize: true,
     }),

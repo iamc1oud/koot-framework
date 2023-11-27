@@ -8,8 +8,15 @@ import { DalModule, UserEntity } from '@koot/dal';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 import { SharedModule } from '@koot/shared';
+import { AuthService } from './services/auth.service';
+import { JwtModule, JwtService } from '@nestjs/jwt';
+import { USECASES } from './usecases';
 
-const AUTH_PROVIDER: Provider[] = [];
+const AUTH_PROVIDER: Provider[] = [
+  JwtService,
+  AuthService,
+  ...USECASES
+];
 
 @Module({
   imports: [
@@ -18,6 +25,14 @@ const AUTH_PROVIDER: Provider[] = [];
     PassportModule.register({
       defaultStrategy: 'github',
     }),
+    JwtModule.register({
+      // secretOrKeyProvider: () => process.env.JWT_SECRET as string,
+      secretOrKeyProvider: () => 'koot',
+      secretOrPrivateKey: 'koot',
+      signOptions: {
+        expiresIn: 360000,
+      }
+    })
   ],
   controllers: [AuthController],
   providers: [
